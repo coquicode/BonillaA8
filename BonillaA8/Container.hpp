@@ -9,5 +9,16 @@
 #define Container_hpp
 
 #include <stdio.h>
+#include <string>
+using namespace std;
+
+
+
+
+
+
+
+
+
 
 #endif /* Container_hpp */
