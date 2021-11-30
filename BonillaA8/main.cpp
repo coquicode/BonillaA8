@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
     bool b;
     Container <int, string> c(5);
 

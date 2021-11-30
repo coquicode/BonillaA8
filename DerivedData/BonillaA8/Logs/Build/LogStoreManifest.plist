@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>044A263A-24EE-477D-B4CA-C7FA2FEC92FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>044A263A-24EE-477D-B4CA-C7FA2FEC92FF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BonillaA8 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BonillaA8</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean BonillaA8</string>
+			<key>timeStartedRecording</key>
+			<real>659965778.69788098</real>
+			<key>timeStoppedRecording</key>
+			<real>659965778.73321998</real>
+			<key>title</key>
+			<string>Clean BonillaA8</string>
+			<key>uniqueIdentifier</key>
+			<string>044A263A-24EE-477D-B4CA-C7FA2FEC92FF</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
