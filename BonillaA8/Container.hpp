@@ -16,15 +16,15 @@ using namespace std;
 template <class T>
 class Container
 {
-public:
+private:
 
     T *dataPtr;
     T *keyPtr;
     int SIZE;
     
-//    constructor
+//    default constructor
     Container();
-    
+
 //    member functions
     
 //    Destructor
