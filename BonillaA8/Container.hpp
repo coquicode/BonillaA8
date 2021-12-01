@@ -18,15 +18,20 @@ class Container
 {
 private:
 
-    T *dataPtr;
-    T *keyPtr;
+    T *dataPtr; // data
+    T *keyPtr;  // key
+    int num; //number of elements
     int SIZE;
     
 //    default constructor
     Container();
 
-//    member functions
+///    member functions
+    //setters
     
+    //getters
+    
+    //operator [] overload
 //    Destructor
     ~Container();
     
