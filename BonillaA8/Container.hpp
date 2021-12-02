@@ -23,9 +23,16 @@ private:
     int num; //number of elements
     
 public:
-//    default constructor
-    Container();
+//
+//    overloaded constructor
+    Container(T1,T2);
+    Container<T1, T2>::Container(int d, string k)
+    {
+        dataPtr = new T1[];
+        keyPtr = new T2[];
 
+    }
+    
 ///    member functions
     //setters
     void setData(T1);
@@ -33,6 +40,7 @@ public:
     //getters
     T1 getKey() const;
     T2 getData() const;
+    
     //operator [] overload
     T1& operator[] (const T1&);
 //    Destructor
