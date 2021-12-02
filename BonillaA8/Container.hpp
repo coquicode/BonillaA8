@@ -13,13 +13,13 @@
 #include <iostream>
 using namespace std;
 
-template <class T>
+template <class T1, class T2>
 class Container
 {
 private:
 
-    T *dataPtr; // data
-    T *keyPtr;  // key
+    T1 *dataPtr; // data
+    T2 *keyPtr;  // key
     int num; //number of elements
     int SIZE;
     
@@ -28,10 +28,13 @@ private:
 
 ///    member functions
     //setters
-    
+    void setData(T1);
+    void setKey(T2);
     //getters
-    
+    T1 getKey() const;
+    T2 getData() const;
     //operator [] overload
+    T1& operator[] (const T1&);
 //    Destructor
     ~Container();
     
