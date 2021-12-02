@@ -21,8 +21,8 @@ private:
     T1 *dataPtr; // data
     T2 *keyPtr;  // key
     int num; //number of elements
-    int SIZE;
     
+public:
 //    default constructor
     Container();
 
